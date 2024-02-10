@@ -1,7 +1,5 @@
-<script setup lang="ts">
-import E from "./layout/Home.vue";
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <E />
+  <router-view></router-view>
 </template>
