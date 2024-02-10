@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
+    "test": "vitest",
     "preview": "vite preview",
     "tauri": "tauri"
   },
@@ -19,6 +20,7 @@
     "@vitejs/plugin-vue": "^4.2.3",
     "typescript": "^5.0.2",
     "vite": "^5.0.0",
+    "vitest": "^1.2.2",
     "vue-tsc": "^1.8.5"
   }
 }

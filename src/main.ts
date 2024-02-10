@@ -2,6 +2,8 @@ import { createApp } from "vue";
 import { createRouter, createWebHistory } from "vue-router";
 import App from "./App.vue";
 
+// Import layouts and turn them into routes
+
 import Home from "./layout/Home.vue";
 import NotFound from "./layout/NotFound.vue";
 import Login from './layout/Login.vue';
